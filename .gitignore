@@ -43,6 +43,9 @@ build/Release
 node_modules/
 jspm_packages/
 
+#media files
+media/
+
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
@@ -164,3 +167,4 @@ dist
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/node,visualstudiocode
+
