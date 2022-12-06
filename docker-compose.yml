@@ -19,6 +19,7 @@ services:
       PORT: 3000
       NODE_ENV: development 
       PAYLOAD_SECRET: 3571b7a74da0ba4895e75f87 
+      SERVER_URL: http://157.245.96.221
 
   mongo:
     image: mongo:4.4.6
