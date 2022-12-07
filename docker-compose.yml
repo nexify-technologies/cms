@@ -22,7 +22,7 @@ services:
       SERVER_URL: http://157.245.96.221
 
   mongo:
-    image: mongo:4.4.6
+    image: mongo:6.0
     ports:
       - "27017:27017"
     command:
