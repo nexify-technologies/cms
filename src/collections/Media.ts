@@ -1,6 +1,6 @@
-import { CollectionConfig } from "payload/types";
 import path from "path";
-const basePath = path.join(__dirname, "../", "../", "media");
+import { CollectionConfig } from "payload/types";
+const basePath = path.join(__dirname, "../", "../","../", "media");
 
 const Media:CollectionConfig = {
   slug: 'media',

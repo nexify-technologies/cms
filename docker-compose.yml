@@ -9,7 +9,9 @@ services:
     volumes:
       - .:/home/node/app
       - node_modules:/home/node/app/node_modules
-      - media:/home/node/app/media
+      - type: bind
+        source: ../media
+        target: /home/node/media
     working_dir: /home/node/app/
     command: sh -c "yarn install && yarn build && yarn serve"
     depends_on:
@@ -35,4 +37,3 @@ services:
 volumes:
   data:
   node_modules:
-  media:
